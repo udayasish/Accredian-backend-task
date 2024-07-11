@@ -5,8 +5,8 @@ import referralRoutes from "./routes/referralRoutes.js";
 const app = express();
 
 app.use(cors({
-    // origin: "http://localhost:3000",
-    origin: "https://accredian-frontend-task-final.onrender.com/",
+    origin: "http://localhost:3000",
+    // origin: "https://accredian-frontend-task-final.onrender.com/",
     credentials: true
 }));
 
