@@ -10,7 +10,7 @@ datasource db {
 
 }
 
-model Referral {
+model referral {
   id        Int      @id @default(autoincrement())
   firstname      String
   lastname     String
