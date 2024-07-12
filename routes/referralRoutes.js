@@ -44,7 +44,7 @@ router.post('/', validateReferral, async (req, res) => {
       await sendEmail(
         referralemail,
         "You've been referred!",
-        `Hello ${referralname},\n\nYou've been referred by ${firstname} ${lastname}. We'd love to connect with you about our services.\n\nBest regards,\nYour Company Name`
+        `Hello ${referralname},\n\nYou've been referred by ${firstname} ${lastname}. We'd love to connect with you about our services.\n\nBest regards,\nAccredian`
       );
 
     res.status(201).json(newReferral);
